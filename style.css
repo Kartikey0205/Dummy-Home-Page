@@ -1,0 +1,108 @@
+/* CSS reset */
+body {
+    margin: 0px;
+    padding: 0px;
+    background: url("Screenshot (26).png");
+    color: white;
+}
+
+
+.left {
+    /* border: 6px solid yellow; */
+    display: inline-block;
+    position: absolute;
+    top: 20px;
+    left: 35px;
+}
+
+.mid {
+    /* border: 6px solid green; */
+    display: block;
+    width: 33%;
+    margin: 40px auto;
+}
+
+.right {
+    /* border: 6px solid red; */
+    display: inline-block;
+    position: absolute;
+    right: 35px;
+    top: 30px;
+}
+
+.left img {
+    width: 108px;
+    /* filter: invert(100%); black ko white m convert */
+}
+
+.left div {
+    font-family: sans-serif;
+    text-align: center;
+    line-height: 25px;
+    /* logo se neche ki height */
+}
+.navbar li {
+    display: inline-block;
+    font-size: 18px;
+}
+
+.navbar li a {
+    color: white;
+    text-decoration: none;
+    padding: 2px 10px;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+.navbar li a.active,
+.navbar li a:hover {
+    color: tomato;
+    text-decoration: underline;
+}
+
+.btn {
+    font-family: cursive;
+    margin: 6px 10px;
+    color: black;
+    background: #17b388d1;
+    font-size: 15px;
+    padding: 6px 9px;
+    border: 2px solid palevioletred;
+    border-radius: 3px;
+    cursor: pointer;
+}
+
+.btn:hover {
+    background-color: rgb(233, 6, 233);
+}
+
+
+
+.container {
+    display: block;
+    /* border: 3px solid purple; */
+    border-radius: 8px;
+    margin: 130px auto;
+    width: 55%;
+    padding: 30px;
+
+}
+.container h1{
+    text-align: center;
+}
+.formgroup input{
+    text-align: center;
+    display: block;
+    margin: 3px auto;
+    width: 33%;
+    padding: 3px 5px;
+    border: 2px solid yellow;
+    border-radius: 30px;
+font-family: cursive;
+}
+
+.container button{
+    display: block;
+    margin: 30px auto ;
+    width: 23%;
+    text-align: center;
+}
