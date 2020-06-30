@@ -31,7 +31,8 @@ body {
 }
 
 .left img {
-    width: 108px;
+    width: 64px;
+    margin: 0px 20px;
     /* filter: invert(100%); black ko white m convert */
 }
 
